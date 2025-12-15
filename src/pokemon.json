@@ -1,0 +1,355 @@
+{
+  "candidates": [
+    {
+      "name": "Grass-1",
+      "base": 265,
+      "level": 10,
+      "exp": 0,
+      "max_hp": 54,
+      "hp": 54,
+      "atk": 20,
+      "property": "Grass",
+      "sprite_path": "menu_sprites/menusprite1.png"
+    },
+    {
+      "name": "Grass-2",
+      "base": 340,
+      "level": 28,
+      "exp": 0,
+      "max_hp": 155,
+      "hp": 155,
+      "atk": 57,
+      "property": "Grass",
+      "sprite_path": "menu_sprites/menusprite2.png"
+    },
+    {
+      "name": "Grass-3",
+      "base": 420,
+      "level": 55,
+      "exp": 0,
+      "max_hp": 340,
+      "hp": 340,
+      "atk": 124,
+      "property": "Grass",
+      "sprite_path": "menu_sprites/menusprite3.png"
+    },
+    {
+      "name": "capybara",
+      "base": 330,
+      "level": 15,
+      "exp": 0,
+      "max_hp": 86,
+      "hp": 86,
+      "atk": 32,
+      "property": "Normal",
+      "sprite_path": "menu_sprites/menusprite4.png"
+    },
+    {
+      "name": "bird",
+      "base": 230,
+      "level": 3,
+      "exp": 0,
+      "max_hp": 22,
+      "hp": 22,
+      "atk": 9,
+      "property": "Fire",
+      "sprite_path": "menu_sprites/menusprite5.png"
+    },
+    {
+      "name": "deergod",
+      "base": 750,
+      "level": 60,
+      "exp": 0,
+      "max_hp": 568,
+      "hp": 568,
+      "atk": 215,
+      "property": "Water",
+      "sprite_path": "menu_sprites/menusprite6.png"
+    },
+    {
+      "name": "Fire-1",
+      "base": 265,
+      "level": 10,
+      "exp": 0,
+      "max_hp": 54,
+      "hp": 54,
+      "atk": 20,
+      "property": "Fire",
+      "sprite_path": "menu_sprites/menusprite7.png"
+    },
+    {
+      "name": "Fire-2",
+      "base": 340,
+      "level": 30,
+      "exp": 0,
+      "max_hp": 166,
+      "hp": 166,
+      "atk": 60,
+      "property": "Fire",
+      "sprite_path": "menu_sprites/menusprite8.png"
+    },
+    {
+      "name": "Fire-3",
+      "base": 430,
+      "level": 55,
+      "exp": 0,
+      "max_hp": 345,
+      "hp": 345,
+      "atk": 127,
+      "property": "Fire",
+      "sprite_path": "menu_sprites/menusprite9.png"
+    },
+    {
+      "name": "mouse",
+      "base": 800,
+      "level": 50,
+      "exp": 0,
+      "max_hp": 500,
+      "hp": 500,
+      "atk": 190,
+      "property": "Normal",
+      "sprite_path": "menu_sprites/menusprite10.png"
+    },
+    {
+      "name": "mice",
+      "base": 200,
+      "level": 50,
+      "exp": 0,
+      "max_hp": 200,
+      "hp": 200,
+      "atk": 70,
+      "property": "Water",
+      "sprite_path": "menu_sprites/menusprite11.png"
+    },
+    {
+      "name": "Water-1",
+      "base": 265,
+      "level": 10,
+      "exp": 0,
+      "max_hp": 54,
+      "hp": 54,
+      "atk": 20,
+      "property": "Water",
+      "sprite_path": "menu_sprites/menusprite12.png"
+    },
+    {
+      "name": "Water-2",
+      "base": 340,
+      "level": 28,
+      "exp": 0,
+      "max_hp": 155,
+      "hp": 155,
+      "atk": 57,
+      "property": "Water",
+      "sprite_path": "menu_sprites/menusprite13.png"
+    },
+    {
+      "name": "Water-3",
+      "base": 430,
+      "level": 55,
+      "exp": 0,
+      "max_hp": 345,
+      "hp": 345,
+      "atk": 127,
+      "property": "Water",
+      "sprite_path": "menu_sprites/menusprite14.png"
+    },
+    {
+        "name": "flight-1",
+        "base": 300,
+        "level": 23,
+        "exp": 0,
+        "max_hp": 120,
+        "hp": 120,
+        "atk": 44,
+        "property": "Grass",
+        "sprite_path": "menu_sprites/menusprite15.png"
+    },
+    {
+        "name": "flight-2",
+        "base": 540,
+        "level": 62,
+        "exp": 0,
+        "max_hp": 456,
+        "hp": 456,
+        "atk": 169,
+        "property": "Grass",
+        "sprite_path": "menu_sprites/menusprite16.png"
+    }
+  ],
+  "sp_candidates": [
+    {
+      "name": "fighter",
+      "base": 810,
+      "level": 100,
+      "exp": 0,
+      "max_hp": 1000,
+      "hp": 1000,
+      "atk": 379,
+      "property": "Normal",
+      "sprite_path": "menu_sprites/menuspritesp.png"
+    }
+  ],
+  "evolution": {
+    "Grass-1": {
+      "name": "Grass-1",
+      "can": 1,
+      "sprite_path": "menu_sprites/menusprite1.png",
+      "level": 20,
+      "evolution_name":"Grass-2",
+      "evolution_base":340,
+      "evolution_property":"Grass",
+      "evolution_sprite_path": "menu_sprites/menusprite2.png"
+    },
+    "Grass-2": {
+      "name": "Grass-2",
+      "can": 1,
+      "sprite_path": "menu_sprites/menusprite2.png",
+      "level": 45,
+      "evolution_name":"Grass-3",
+      "evolution_base":420,
+      "evolution_property":"Grass",
+      "evolution_sprite_path": "menu_sprites/menusprite3.png"
+    },
+    "Grass-3": {
+      "name": "Grass-3",
+      "can": 0,
+      "sprite_path": "menu_sprites/menusprite3.png",
+      "level": 1000000,
+      "evolution_name":"unknow",
+      "evolution_base":0,
+      "evolution_property":"Normal",
+      "evolution_sprite_path": "menu_sprites/menuspritesp.png"
+    },
+    "capybara": {
+      "name": "capybara",
+      "can": 0,
+      "sprite_path": "menu_sprites/menusprite4.png",
+      "level": 100000000,
+      "evolution_name":"unknow",
+      "evolution_base":0,
+      "evolution_property":"Normal",
+      "evolution_sprite_path": "menu_sprites/menuspritesp.png"
+    },
+    "bird": {
+      "name": "bird",
+      "can": 0,
+      "sprite_path": "menu_sprites/menusprite5.png",
+      "level": 1000000,
+      "evolution_name":"unknow",
+      "evolution_base":0,
+      "evolution_property":"Normal",
+      "evolution_sprite_path": "menu_sprites/menuspritesp.png"
+    },
+    "deergod": {
+      "name": "deergod",
+      "can": 0,
+      "sprite_path": "menu_sprites/menusprite6.png",
+      "level": 1000000,
+      "evolution_name":"unknow",
+      "evolution_base":0,
+      "evolution_property":"Normal",
+      "evolution_sprite_path": "menu_sprites/menuspritesp.png"
+    },
+    "Fire-1": {
+      "name": "Fire-1",
+      "can": 1,
+      "sprite_path": "menu_sprites/menusprite7.png",
+      "level": 20,
+      "evolution_name":"Fire-2",
+      "evolution_base":340,
+      "evolution_property":"Fire",
+      "evolution_sprite_path": "menu_sprites/menusprite8.png"
+    },
+    "Fire-2": {
+      "name": "Fire-2",
+      "can": 1,
+      "sprite_path": "menu_sprites/menusprite8.png",
+      "level": 45,
+      "evolution_name":"Fire-3",
+      "evolution_base":430,
+      "evolution_property":"Fire",
+      "evolution_sprite_path": "menu_sprites/menusprite9.png"
+    },
+    "Fire-3": {
+      "name": "Fire-3",
+      "can": 0,
+      "sprite_path": "menu_sprites/menusprite9.png",
+     "level": 1000000,
+      "evolution_name":"unknow",
+      "evolution_base":0,
+      "evolution_property":"Normal",
+      "evolution_sprite_path": "menu_sprites/menuspritesp.png"
+    },
+    "mouse": {
+      "name": "mouse",
+      "can": 1,
+      "sprite_path": "menu_sprites/menusprite10.png",
+      "level": 45,
+      "evolution_name":"mice",
+      "evolution_base":200,
+      "evolution_property":"Water",
+      "evolution_sprite_path": "menu_sprites/menusprite11.png"
+    },
+    "mice": {
+      "name": "mice",
+      "can": 0,
+      "sprite_path": "menu_sprites/menusprite11.png",
+      "level": 1000000,
+      "evolution_name":"unknow",
+      "evolution_base":0,
+      "evolution_property":"Normal",
+      "evolution_sprite_path": "menu_sprites/menuspritesp.png"
+    },
+    "Water-1": {
+      "name": "Water-1",
+      "can": 1,
+      "sprite_path": "menu_sprites/menusprite12.png",
+      "level": 20,
+      "evolution_name":"Water-2",
+      "evolution_base":340,
+      "evolution_property":"Water",
+      "evolution_sprite_path": "menu_sprites/menusprite13.png"
+    },
+    "Water-2": {
+      "name": "Water-2",
+      "can": 1,
+      "sprite_path": "menu_sprites/menusprite13.png",
+      "level": 45,
+      "evolution_name":"Water-3",
+      "evolution_base":430,
+      "evolution_property":"Water",
+      "evolution_sprite_path": "menu_sprites/menusprite14.png"
+    },
+    "Water-3": {
+      "name": "Water-3",
+      "can": 0,
+      "sprite_path": "menu_sprites/menusprite14.png",
+      "level": 1000000,
+      "evolution_name":"unknow",
+      "evolution_base":0,
+      "evolution_property":"Normal",
+      "evolution_sprite_path": "menu_sprites/menuspritesp.png"
+    },
+    "flight-1": {
+      "name": "flight-1",
+      "can": 1,
+      "sprite_path": "menu_sprites/menusprite15.png",
+      "level": 30,
+      "evolution_name":"flight-2",
+      "evolution_base":540,
+      "evolution_property":"Grass",
+      "evolution_sprite_path": "menu_sprites/menusprite16.png"
+    },
+    "flight-2": {
+      "name": "flight-2",
+      "can": 0,
+      "sprite_path": "menu_sprites/menusprite16.png",
+      "level": 1000000,
+      "evolution_name":"unknow",
+      "evolution_base":0,
+      "evolution_property":"Normal",
+      "evolution_sprite_path": "menu_sprites/menuspritesp.png"
+    }
+  }
+}
