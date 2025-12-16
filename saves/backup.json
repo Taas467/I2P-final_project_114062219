@@ -117,8 +117,8 @@
         }
       ],
       "player": {
-        "x": 3.0,
-        "y": 12.0
+        "x": 34.0,
+        "y": 14.0
       },
       "enemy_trainers": [
         {
@@ -153,21 +153,84 @@
       "seller": []
     }
   ],
-  "current_map": "map.tmx",
+  "current_map": "mountain.tmx",
   "player": {
-    "x": 48.0,
-    "y": 33.0
+    "x": 36.0,
+    "y": 1.0
   },
   "bag": {
     "monsters": [
       {
-        "name": "Pikachu",
-        "hp": 67,
-        "max_hp": 100,
+        "name": "Grass-2",
+        "base": 340,
         "level": 25,
+        "exp": 70,
+        "max_hp": 41,
+        "hp": 42,
+        "atk": 15,
         "property": "Grass",
-        "sprite_path": "menu_sprites/menusprite1.png",
-        "exp":0
+        "sprite_path": "menu_sprites/menusprite2.png"
+      },
+      {
+        "name": "Fire-1",
+        "base": 265,
+        "level": 10,
+        "exp": 0,
+        "max_hp": 22,
+        "hp": 22,
+        "property": "Fire",
+        "sprite_path": "menu_sprites/menusprite7.png"
+      },
+      {
+        "name": "deergod",
+        "base": 750,
+        "level": 80,
+        "exp": 100,
+        "max_hp": 568,
+        "hp": 112,
+        "atk": 31,
+        "property": "Water",
+        "sprite_path": "menu_sprites/menusprite6.png"
+      },
+      {
+        "name": "flight-2",
+        "base": 540,
+        "level": 62,
+        "exp": 0,
+        "max_hp": 108,
+        "hp": 108,
+        "property": "Grass",
+        "sprite_path": "menu_sprites/menusprite16.png"
+      },
+      {
+        "name": "mouse",
+        "base": 800,
+        "level": 50,
+        "exp": 0,
+        "max_hp": 121,
+        "hp": 121,
+        "property": "Normal",
+        "sprite_path": "menu_sprites/menusprite10.png"
+      },
+      {
+        "name": "Grass-2",
+        "base": 340,
+        "level": 28,
+        "exp": 0,
+        "max_hp": 45,
+        "hp": 45,
+        "property": "Grass",
+        "sprite_path": "menu_sprites/menusprite2.png"
+      },
+      {
+        "name": "deergod",
+        "base": 750,
+        "level": 60,
+        "exp": 0,
+        "max_hp": 133,
+        "hp": 133,
+        "property": "Water",
+        "sprite_path": "menu_sprites/menusprite6.png"
       }
     ],
     "items": [
